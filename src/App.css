@@ -1,38 +1,527 @@
-.App {
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+.Nav-logo img {
+  width: 182px;
+  height: 90px;
+  top: 36px;
+  left: 142px;
+}
+
+.email {
+  margin-right: 2rem;
+}
+
+.email-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.email-text {
+  font-size: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "SF Pro Display", sans-serif;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+.navbar-btn {
+  color: white;
+  background-color: #a73a3a !important;
+  border-radius: 60px !important;
+  padding: 18px 36px 18px 36px;
+  border: transparent !important;
+}
+
+.navbar-btn img {
+  padding-left: 1rem;
+}
+
+.btn-text {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+.empower {
+  top: 50%;
+  transform: 0, -50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  padding-top: 3rem;
+  gap: 48px;
+  margin-bottom: 4rem;
+  /* max-width: 1000px; */
+}
+.empower h1 {
+  position: relative;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.empower h6 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.empower button {
+  width: 219px;
+  height: 72px;
+  text-align: center;
+  border-radius: 60px;
+  gap: 12px;
+  background-color: #a73a3a;
   color: white;
+  border-color: transparent;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+.investment img {
+  width: 100%;
+  height: 663px;
+  top: 558px;
+  left: 248px;
+  padding: 0px 1.33px 0px 1.33px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* column-gap: 2rem; */
+  top: 50%;
+  transform: 0, -50%;
+  padding-left: 20%;
+  padding-right: 50%;
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+}
+.left {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  /* margin-top: 1rem; */
+}
+
+.left-element {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.left-element img {
+  width: 90px;
+  margin-top: 1rem;
+  height: 90px;
+  border-radius: 90px;
+}
+
+.left-element h3 {
+  padding-top: 1.8rem;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: auto;
+}
+
+.left-element h6 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #24242e;
+}
+.card {
+  /* margin-top: 4rem; */
+  width: 600px !important;
+  height: 586px !important;
+  border-radius: 36px !important;
+}
+.card-title h2 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  line-height: 44px !important;
+  letter-spacing: 0em !;
+  text-align: center;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 2rem;
+}
+.container-element {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.input {
+  width: 240px;
+  height: 54px;
+  /* top: 142px; */
+  border-radius: 6px;
+  border-color: #6a6a76;
+  border-width: 1px;
+}
+.authorize {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.authorize span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.check {
+  width: 24px;
+  height: 24px;
+  /* top: 328px; */
+  border-radius: 4px;
+}
+
+.callback-btn {
+  margin-top: 2rem;
+  width: 504px;
+  height: 60px;
+  border-radius: 60px;
+  gap: 24px;
+  background-color: #a73a3a;
+  color: white;
+  border-color: transparent;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+.alpha {
+  top: 50%;
+  transform: 0, -50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 3rem;
+}
+
+.alpha h1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.alpha-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 2rem;
+}
+
+.alpha-container-element img {
+  width: 362px;
+  height: auto;
+}
+
+.Long-alpha {
+  top: 50%;
+  transform: 0, -50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 3rem;
+}
+
+.Long-alpha-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.Long-alpha-container h1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Long-alpha-container h6 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.alpha-img {
+  width: 550.86px;
+  height: auto;
+}
+
+.inner-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.inner-container img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.inner-container h3 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.inner-container h6 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.revamp {
+  margin-top: 1rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.factsheet-btn {
+  margin-top: 2rem;
+  width: 314px;
+  height: 72px;
+  text-align: center;
+  border-radius: 60px;
+  border-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  gap: 18px;
+  background-color: #a73a3a;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+.graph {
+  top: 50%;
+  transform: 0, -50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 3rem;
+}
+.graph-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1rem;
+}
+
+.graph-container img {
+  width: 600px;
+  height: auto;
+}
+
+.graph-container h3 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.graph-container h6 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.graph-inner-container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  margin-top: 1rem;
+}
+
+.graph-inner-container img {
+  width: 36px;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.graph-inner-container span {
+  font-family: "Work Sans", sans-serif;
+  color: #4040da;
+  /* margin-top: 1.5rem; */
+  padding-left: 1rem;
+  font-size: 12.5px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.why {
+  margin: 2rem;
+  /* width: 100%; */
+  height: 894px;
+  border-radius: 60px;
+  opacity: 0.04px;
+  background-color: #f3f3f380;
+}
+
+.why-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.why-container h1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.why-container p {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.man {
+  margin: 2rem;
+  width: 750px;
+  height: 750px;
+}
+
+.redTick {
+  width: 36px;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.vertical-line {
+  width: 4px;
+  background-color: gray;
+}
+
+.footer {
+  background-color: #4d4d4d;
+}
+
+.footer-img {
+  width: 146px;
+  height: 72px;
+}
+
+.footer-left-end {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-right-end {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  padding-left: 6.7rem;
+}
+
+.vl {
+  border-left: 2px solid grey;
+  height: 30px;
+  /* position: absolute; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-center {
+  padding-left: 14rem;
+  padding-right: 8.5rem;
+}
+
+.social img {
+  margin: 3px;
+  width: 48px;
+  height: 48px;
+}
+
+.blue {
+  background-color: #4040da;
+  width: 100%;
+  padding: 4rem;
+}
+
+.blue-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.blue-container h1 {
+  text-align: left;
+  color: white;
+  font-family: " SF Pro Display", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 72px;
 }
